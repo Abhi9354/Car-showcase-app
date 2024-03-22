@@ -60,7 +60,7 @@ const SearchManufacturer = ({
                     }
                     value={item}
                   >
-                    {({selective,active})=>{
+                    {({selective,active})=>(
                       <>
                       <span
                           className={`block truncate ${
@@ -79,7 +79,7 @@ const SearchManufacturer = ({
                           </span>
                         ) : null}
                       </>
-                    }}
+                    )}
                   </Combobox.Option>
                 )
               )}
