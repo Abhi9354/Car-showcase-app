@@ -60,7 +60,7 @@ const SearchManufacturer = ({
                     }
                     value={item}
                   >
-                    {item}
+                    {({selective,active})=>{}}
                   </Combobox.Option>
                 )
               )}
