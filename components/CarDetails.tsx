@@ -9,9 +9,11 @@ interface CarDetailsProps{
 }
 const CarDetails = ({isOpen,closeModel,car}:CarDetailsProps) => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Transition appear show={isOpen} as={Fragment}>
+
+      </Transition>
+    </>
   )
 }
 
